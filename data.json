@@ -1,6 +1,10 @@
 {
   "postman": {
     "version": "10.13.6",
-    "reason": "",
+    "reason": "Removed Scratch Pad in future versions"
+  },
+  "filezilla": {
+    "version": "3.62.0-noupdate",
+    "reason": "Doesn't respect user choice for not checking for updates as it keeps asking to update regardless"
   }
 }
