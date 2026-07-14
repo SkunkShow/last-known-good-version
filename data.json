@@ -1,18 +1,11 @@
 {
   "postman": {
-    "version": "10.13.6",
-    "reason": "Removed Scratch Pad in future versions.",
-    "workaround": "Configure firewall internet access or block update domains on hosts file; Delete or rename Update.exe; Use concole commands to stop nagging the user: pm.settings.setSetting('offlineAPIClientEnabled',0); pm.mediator.trigger('hideUserSwitchingExperienceModal');."
+    "version": "10.13.6"
   },
   "filezilla": {
-    "version": "3.62.0-noupdate",
-    "reason": "Doesn't respect user choice for not checking for updates as it keeps asking to update regardless.",
-    "solution": "Do not use any other version.",
-    "notes": "Don't know which version started the forced updates."
+    "version": "3.62.0-noupdate"
   },
   "visual-studio": {
-    "version": "2022",
-    "reason": "On 2026 version it forces the user to update and even if ignored it immediately closes the application."
-    "workaround": "Open solution (.sln) directly and it won't 'ask' to update. It will after a while though."
+    "version": "2022"
   }
 }
