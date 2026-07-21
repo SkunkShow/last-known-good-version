@@ -1,11 +1,22 @@
 {
-  "postman": {
-    "version": "10.13.6"
-  },
+  "brave": {
+    "version": "1.85.120",
+    "reason": "Future versions have Manifest V2 dropped, breaking extensions"
+  }
   "filezilla": {
-    "version": "3.62.0-noupdate"
+    "version": "3.62.0-noupdate",
+    "reason": "Other versions continue to nag the user about updates even if opted out"
+  },
+  "laravel": {
+    "version": "11.x",
+    "reason": "Future versions have AI SDK, so probably vibe-coded slop",
+  }
+  "postman": {
+    "version": "10.13.6",
+    "reason": "Future versions drop Scratch Pad or force it off unless logged in",
   },
   "visual-studio": {
-    "version": "2022"
+    "version": "2022",
+    "reason": "Future versions force user to update, and when user closes popup it closes the entire program"
   }
 }
