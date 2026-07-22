@@ -1,6 +1,6 @@
 {
   "brave": {
-    "version": "1.85.120",
+    "version": "1.91.180",
     "reason": "Future versions have Manifest V2 dropped, breaking extensions"
   }
   "filezilla": {
