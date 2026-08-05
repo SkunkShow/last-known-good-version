@@ -7,6 +7,10 @@
     "version": "3.62.0-noupdate",
     "reason": "Other versions continue to nag the user about updates even if opted out"
   },
+  "hwinfo": {
+    "version": "6.42",
+    "reason": "Future versions have Shared Memory Support feature limited to 12 hours"
+  },
   "laravel": {
     "version": "11.x",
     "reason": "Future versions have AI SDK, so probably vibe-coded slop",
@@ -17,6 +21,6 @@
   },
   "visual-studio": {
     "version": "2022",
-    "reason": "Future versions force user to update, and when user closes popup it closes the entire program"
+    "reason": "Future versions force the user to update, and when user closes popup it closes the entire program"
   }
 }
